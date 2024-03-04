@@ -3,9 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Investor Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            margin: 20px;
+            width: 200px;
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+
+    <div class="card-container">
+        <!-- Investor 1 -->
+        <div class="card">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="Investor 1">
+            <h2 style="font-size: medium;"><b>Vijay Shekhar Sharma</b></h2>
+            <h5>Founder & CEO</h5>
+           <h5>Paytm</h5>
+        </div>
+
+        <!-- Investor 2 -->
+        <div class="card">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Rectangle_427_637d69bb57.png" alt="Investor 2">
+            <h2 style="font-size: medium;">Kunal Shah</h2>
+            <h5>Founder</h5>
+            <h5>Cred</h5>
+            
+        </div>
+
+        <!-- Investor 3 -->
+        <div class="card">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/amrish_rau_pine_labs_144e5e587c.jpg" alt="Investor 3">
+            <h2 style="font-size: medium;">Amrish Rau</h2>
+            <h5>CEO</h5>
+            <h5>Pinelabs</h5>
+        </div>
+
+        <!-- Investor 4 -->
+        <div class="card">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Sampad_swain_Instamojo_f12bf6341e.jpg" alt="Investor 4">
+            <h2 style="font-size: medium;">Sampad Swain</h2>
+            <h5>Co-Founder & CEO</h5>
+            <h5>Instamojo</h5>
+        </div>
+    </div>
+
 </body>
 </html>
